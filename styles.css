@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1.5em;
+	font-size: 16px;
+	font-family: monospace;
+}
+
+#menu {
+	background: linear-gradient(-90deg, rgb(0, 0, 255), rgb(255, 0, 255));
+}
+
+#menu a {
+	color: white;
+}
+
+#menu a:hover {
+	color: yellow;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.reggae {
+	font-family: 'Reggae One', cursive;
+	font-weight: 800;
+}
+
+.monospace {
+	font-family: monospace;
+}
+
+.social-icon  {
+	width: auto;
+	font-size: 25px;
+}
+
+.social-icon:hover {
+	background: color: rgb(0, 100, 20);
+	color: rgb(255, 200, 0);
+}
+
+
+
+/* HOME/#ABOUT_SECTION */
+
+.section-padding{
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.section-header {
+	margin-bottom: 50px;
+}
+
+
+.single-service {
+	transition: .5s;
+	text-align: center;
+	height: 500px;
+	padding: 120px 50px;
+	background: linear-gradient(90deg, rgb(0, 200, 200), rgb(255, 0, 255));
+}
+
+
+.single-service .icon {
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+	color: #000;
+	display: inline-block;
+	height: 90px;
+	width: 90px;
+	margin-bottom: 35px;
+}
+
+.single-service .icon i {
+	display: block;
+	font-size: 32px;
+	line-height: 90px;
+}
+
+.single-service .content {
+	height: 32px;
+	transition: .5s;
+}
+
+.single-service .content h3 {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 35px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.single-serivice .content p {
+	color: #fff;
+	line-height: 29px;
+	margin: 27px 0 0;
+}
+
+.single-service:hover {
+	background: linear-gradient(90deg, rgb(200, 200, 50), rgb(0, 200, 200));
+	padding: 60px 50px;
+}
+
+.single-service:hover .content {
+	height: 140px;
+}
+
+
+@media (max-width: 900px) {
+	.social-icon {
+		font-size: 50px;
+	}
+}
